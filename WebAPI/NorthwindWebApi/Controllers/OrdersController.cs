@@ -156,7 +156,7 @@ namespace NorthwindWebApi.Controllers
             }
         }
 
-        [HttpPost("Checkout")]
+        /*[HttpPost("Checkout")]
         public IActionResult CheckOut(int orderId)
         {
             try
@@ -192,6 +192,6 @@ namespace NorthwindWebApi.Controllers
             {
                 return BadRequest(ex.Message);
             }
-        }
+        }*/
     }
 }

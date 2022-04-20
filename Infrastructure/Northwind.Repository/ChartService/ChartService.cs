@@ -65,6 +65,7 @@ namespace Northwind.Repository.CartService
                     orderDetail.ProductId = productId;
                     orderDetail.UnitPrice = (decimal)((decimal)product.UnitPrice * quantity);
                     orderDetail.Quantity = (short)quantity;
+                    //orderDetail.Discount = (real)product.Discontinued;
 
                     _repository.OrderDetails.CreateOrderDetail(orderDetail);
                     _repository.Save();
@@ -97,66 +98,12 @@ namespace Northwind.Repository.CartService
 
         public Order Checkout(int id)
         {
-            Order orderResult = new Order();
-
-            try
-            {
-                var order = _repository.Orders.GetOrder(id, trackChanges: true);
-
-                /*if (order == null)
-                {
-                }*/
-                order = new Order();
-                order.RequiredDate = DateTime.Now;
-                List<OrderDetail> orderDetails = _repository.OrderDetails.GetAllOrderDetail(trackChanges: true).Where(c => c.OrderId == id).ToList();
-
-                foreach (var productList in orderDetails)
-                {
-                    var product = _repository.Products.GetProduct(productList.ProductId, trackChanges: true);
-                    product.UnitsInStock -= productList.Quantity;
-
-                    _repository.Products.UpdateProduct(product);
-                    _repository.Save();
-                }
-
-                _repository.Orders.UpdateOrder(order);
-                _repository.Save();
-                return order;
-            }
-            catch (Exception ex)
-            {
-                return orderResult;
-            }
+            throw new NotImplementedException();
         }
 
         public Order ShipOrder(ShipDto shipDto, int id)
         {
-            Order newOrder = new Order();
-            
-            try
-            {
-                var order = _repository.Orders.GetOrder(id, trackChanges: true);
-                var customer = _repository.Customers.GetCustomer(order.CustomerId, trackChanges: false);
-
-                order.ShipAddress = customer.Address;
-                order.ShipCity = customer.City;
-                order.ShipRegion = customer.Region;
-                order.ShipPostalCode = customer.PostalCode;
-                order.ShipCountry = customer.Country;
-                order.ShipVia = shipDto.ShipVIa;
-                order.Freight = shipDto.Freight;
-                order.ShipName = shipDto.ShipName;
-                order.ShippedDate = shipDto.ShippedDate;
-
-                _repository.Orders.UpdateOrder(order);
-                _repository.Save();
-
-                return order;
-            }
-            catch(Exception ex)
-            {
-                return newOrder;
-            }
+            throw new NotImplementedException();
         }
     }
 }
