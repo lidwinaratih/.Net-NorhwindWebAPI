@@ -1,0 +1,15 @@
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.deps.json
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.dll
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Contracts.pdb
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.AssemblyReference.cache
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.AssemblyInfoInputs.cache
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.AssemblyInfo.cs
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.dll
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\refint\Northwind.Contracts.dll
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.pdb
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\ref\Northwind.Contracts.dll
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Entities.dll
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\bin\Debug\net5.0\Northwind.Entities.pdb
+C:\Users\Public\API\NorthwindWebApi\Domain\Northwind.Contracts\obj\Debug\net5.0\Northwind.Contracts.csproj.CopyComplete

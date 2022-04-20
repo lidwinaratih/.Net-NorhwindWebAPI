@@ -1,0 +1,16 @@
+2022-04-18 12:21:20.0995 INFO Info message
+2022-04-18 12:21:20.1436 DEBUG Debug message
+2022-04-18 12:21:20.1436 WARN Warning message
+2022-04-18 12:21:20.1436 ERROR Error message
+2022-04-18 12:23:04.2788 INFO Info message
+2022-04-18 12:23:04.3104 DEBUG Debug message
+2022-04-18 12:23:04.3104 WARN Warning message
+2022-04-18 12:23:04.3104 ERROR Error message
+2022-04-18 12:24:18.2362 INFO Info message
+2022-04-18 12:24:18.2857 DEBUG Debug message
+2022-04-18 12:24:18.2957 WARN Warning message
+2022-04-18 12:24:18.2957 ERROR Error message
+2022-04-18 21:21:05.7507 INFO Category with Id : 20 not found
+2022-04-18 21:23:10.2013 INFO Category with Id : 110 not found
+2022-04-18 21:24:32.8136 INFO Category with Id : 9 doesn't exist
+2022-04-18 21:41:28.6878 INFO Category with Id : 11 doesn't exist

@@ -1,0 +1,31 @@
+2022-04-19 11:01:50.5937 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.RepositoryManager.get_Customers() in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\RepositoryManager.cs:line 36
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 32
+2022-04-19 11:06:09.4412 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.RepositoryManager.get_Customers() in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\RepositoryManager.cs:line 36
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 33
+2022-04-19 11:10:08.1082 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.Models.CustomersRepository.GetAllCustomer(Boolean trackChanges) in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\Models\CustomersRepository.cs:line 30
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 32
+2022-04-19 11:11:25.1118 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.Models.CustomersRepository.GetAllCustomer(Boolean trackChanges) in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\Models\CustomersRepository.cs:line 30
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 33
+2022-04-19 11:15:04.0817 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.Models.CustomersRepository.GetAllCustomer(Boolean trackChanges) in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\Models\CustomersRepository.cs:line 30
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 33
+2022-04-19 11:16:17.1715 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.Models.CustomersRepository.GetAllCustomer(Boolean trackChanges) in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\Models\CustomersRepository.cs:line 30
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 33
+2022-04-19 11:17:11.1176 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.Models.CustomersRepository.GetAllCustomer(Boolean trackChanges) in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\Models\CustomersRepository.cs:line 30
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 33
+2022-04-19 11:17:41.5605 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.Models.CustomersRepository.GetAllCustomer(Boolean trackChanges) in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\Models\CustomersRepository.cs:line 30
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 33
+2022-04-19 11:18:32.0001 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.Models.CustomersRepository.GetAllCustomer(Boolean trackChanges) in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\Models\CustomersRepository.cs:line 30
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 33
+2022-04-19 11:19:31.4192 ERROR GetCustomer message : System.NotImplementedException: The method or operation is not implemented.
+   at Northwind.Repository.Models.CustomersRepository.GetAllCustomer(Boolean trackChanges) in C:\Users\Public\API\NorthwindWebApi\Infrastructure\Northwind.Repository\Models\CustomersRepository.cs:line 30
+   at NorthwindWebApi.Controllers.CustomersController.GetCustomer() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\CustomersController.cs:line 33
+2022-04-19 12:20:05.2167 INFO Customer with Id : LRTW doesn't exist

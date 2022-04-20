@@ -1,0 +1,15 @@
+2022-04-20 10:31:07.1737 ERROR GetOrderDetails message : AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Northwind.Entities.Models.OrderDetail, Northwind.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[NorthwindWebApi.Controllers.OrderDetailsController, NorthwindWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderDetail -> OrderDetailsController
+Northwind.Entities.Models.OrderDetail -> NorthwindWebApi.Controllers.OrderDetailsController
+   at lambda_method40(Closure , OrderDetail , OrderDetailsController , ResolutionContext )
+   at lambda_method39(Closure , Object , IEnumerable`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method39(Closure , Object , IEnumerable`1 , ResolutionContext )
+   at NorthwindWebApi.Controllers.OrderDetailsController.GetOrderDetails() in C:\Users\Public\API\NorthwindWebApi\WebAPI\NorthwindWebApi\Controllers\OrderDetailsController.cs:line 33
